@@ -1,3 +1,11 @@
+red=`tput setaf 1`
+green=`tput setaf 2`
+yellow=`tput setaf 3`
+blue=`tput setaf 4`
+magenta=`tput setaf 5`
+cyan=`tput setaf 6`
+reset=`tput sgr0`
+
 echo "${yellow}Checking for INSTALL directory${reset}"
 if [ ! -d "$INSTALL_DIR" ]; then
   # Control will enter here if $DIRECTORY doesn't exist.
